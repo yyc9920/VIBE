@@ -261,6 +261,7 @@ def main(args):
 
     end = time.time()
     fps = num_frames / (end - vibe_time)
+    print(f'VIBE Time: {(end - vibe_time):.2f}')
 
     print(f'VIBE FPS: {fps:.2f}')
     total_time = time.time() - total_time
